@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Complex Form</h2>
+    <fieldset>
+        <legend>Personal Information:</legend>
+        <label for="name">Name:</label> 
+        <input type="text" id="name" name="name"> 
+
+        <label for="Email">Email:</label> 
+        <input type="email" id="Email" name="Email"> 
+
+        <label for="phone">Phone No:</label> 
+        <input type="tel" id="phone" name="phone"> 
+
+        <label for="dob">date of Birth:</label> 
+        <input type="date" id="dob" name="dob">
+
+        <label >Gender</label> 
+        <input type="radio" id="male" name="gender">
+        <label for="male">Male</label>
+        
+        <input type="radio" id="female" name="gender">
+        <label for="female">Female</label>
+        
+        <label for="country">Country</label> 
+        <select name="country" id="country">
+            <option value="High School">India</option>
+            <option value="usa">USA</option>
+        </select> 
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>
+            <label for="add">Address Street</label> 
+            <input type="text" id="add" name="add"> 
+            <label for="add2">City</label> 
+            <input type="text" id="add2" name="add2">
+            <label for="add3">State</label> 
+            <input type="text" id="add3" name="add3">  
+            <label for="add4">Zip COde</label> 
+            <input type="tel" id="add4" name="add4">            
+        </legend>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Other Information</legend>
+        <label for="comment">Comments:</label>
+        <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+        <label for="tnc">I agree to the terms of services </label>
+        <input type="checkbox" name="tnc" id="tnc" required>
+    </fieldset>
+
+    <input type="submit" value="Submit">
+</body>
+</html>

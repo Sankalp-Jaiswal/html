@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1px" >
+        <tr>
+            <th colspan="3">Contact form </th>
+        </tr>
+    <form >
+        <tr>
+        <td colspan="3"><label for="user"> <b>Username:</b> </label> 
+        <input type="text" id="user" placeholder="Enter your username" required></td>
+        </tr>
+        <tr>
+            <td colspan="3"><label for="pass"><b>Password:</b></label>
+        <input type="password" id="pass" placeholder="Enter the password"> </td>
+        </tr>
+        <tr>
+            <th>Gender :</th>
+            <td><label for="male"> Male </label>
+            <input type="radio" id="male" value="Male" name="gender"></td>
+            <td><label for="female"> Female </label>
+                <input type="radio" id="female" value="female" name="gender"></td>
+        </tr>
+        <tr>
+            <th> <label for="date">Date</label></th>
+            <td colspan="2"> <input type="date" name="date" id="date"> </td>
+        </tr>
+        <tr>
+            <th>Available :</th>
+            <td colspan="2"><label for="yes"> Yes </label>
+            <input type="checkbox" id="yes" value="yes" name="available">
+            <label for="no"> hn </label>
+                <input type="checkbox" id="no" value="no" name="available"></td>
+        </tr>
+
+        <tr>
+            <td colspan="3"><input type="submit"></td>
+        </tr>
+    </form>
+</table>
+</body>
+</html>
